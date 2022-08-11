@@ -1,0 +1,20 @@
+{
+  "0 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "/Users/codybrown/Documents/dailycanvas/daily-canvas",
+    "wanted": {
+      "node": "16",
+      "pnpm": "6"
+    },
+    "current": {
+      "node": "v18.4.0",
+      "pnpm": "7.3.0"
+    },
+    "err": {
+      "name": "pnpm",
+      "message": "Unsupported engine for /Users/codybrown/Documents/dailycanvas/daily-canvas: wanted: {\"node\":\"16\",\"pnpm\":\"6\"} (current: {\"node\":\"v18.4.0\",\"pnpm\":\"7.3.0\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "pnpm: Unsupported engine for /Users/codybrown/Documents/dailycanvas/daily-canvas: wanted: {\"node\":\"16\",\"pnpm\":\"6\"} (current: {\"node\":\"v18.4.0\",\"pnpm\":\"7.3.0\"})\n    at checkEngine (/Users/codybrown/Library/pnpm/global/5/.pnpm/pnpm@7.3.0/node_modules/pnpm/dist/pnpm.cjs:43096:16)\n    at checkPackage (/Users/codybrown/Library/pnpm/global/5/.pnpm/pnpm@7.3.0/node_modules/pnpm/dist/pnpm.cjs:43679:74)\n    at packageIsInstallable (/Users/codybrown/Library/pnpm/global/5/.pnpm/pnpm@7.3.0/node_modules/pnpm/dist/pnpm.cjs:43702:61)\n    at exports2.default (/Users/codybrown/Library/pnpm/global/5/.pnpm/pnpm@7.3.0/node_modules/pnpm/dist/pnpm.cjs:49527:46)\n    at async run (/Users/codybrown/Library/pnpm/global/5/.pnpm/pnpm@7.3.0/node_modules/pnpm/dist/pnpm.cjs:187784:29)\n    at async runPnpm (/Users/codybrown/Library/pnpm/global/5/.pnpm/pnpm@7.3.0/node_modules/pnpm/dist/pnpm.cjs:188047:5)\n    at async /Users/codybrown/Library/pnpm/global/5/.pnpm/pnpm@7.3.0/node_modules/pnpm/dist/pnpm.cjs:188039:7"
+    }
+  }
+}
